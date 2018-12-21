@@ -18,7 +18,7 @@ public class JacksonStreamingReadSnow {
 	public static void read(List<SneMaaling> sneMaalinger) throws JsonParseException, IOException {
 		
 		//create JsonParser object 
-		JsonParser jsonParser = new JsonFactory().createParser(new File("//home//cte//projects//data//snemaaling.json"));
+		JsonParser jsonParser = new JsonFactory().createParser(new File("//home//carsten//projects//data//snemaaling.json"));
 		
 		//loop through the tokens
 		SnowMeasurement snow = new SnowMeasurement();
